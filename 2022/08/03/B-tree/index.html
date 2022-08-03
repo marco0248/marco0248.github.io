@@ -16,12 +16,12 @@
   <meta name="author" content="歪歪">
   <meta name="keywords" content="">
   
-    <meta name="description" content="B-tree一、B树的性质一颗M阶B树T，满足以下条件 1. 每个结点至多拥有M课子树； 2. 根结点至少拥有两颗子树； 3. 除了根结点以外，其余每个分支结点至少拥有M&#x2F;2课子树； 4. 所有的叶结点都在同一层上； 5. 有k课子树的分支结点则存在k-1个关键字，关键字按照递增顺序进行排序； 6. 关键字数量满足ceil(M&#x2F;2)-1 &lt;&#x3D; n &lt;&#x3D; M-1。  例子：关键字为26英">
+    <meta name="description" content="一、B树的性质一颗M阶B树T，满足以下条件 1. 每个结点至多拥有M课子树； 2. 根结点至少拥有两颗子树； 3. 除了根结点以外，其余每个分支结点至少拥有M&#x2F;2课子树； 4. 所有的叶结点都在同一层上； 5. 有k课子树的分支结点则存在k-1个关键字，关键字按照递增顺序进行排序； 6. 关键字数量满足ceil(M&#x2F;2)-1 &lt;&#x3D; n &lt;&#x3D; M-1。  例子：关键字为26英文字母，阶数">
 <meta property="og:type" content="article">
-<meta property="og:title" content="歪歪的小屋">
+<meta property="og:title" content="B-tree">
 <meta property="og:url" content="http://example.com/2022/08/03/B-tree/index.html">
 <meta property="og:site_name" content="歪歪的小屋">
-<meta property="og:description" content="B-tree一、B树的性质一颗M阶B树T，满足以下条件 1. 每个结点至多拥有M课子树； 2. 根结点至少拥有两颗子树； 3. 除了根结点以外，其余每个分支结点至少拥有M&#x2F;2课子树； 4. 所有的叶结点都在同一层上； 5. 有k课子树的分支结点则存在k-1个关键字，关键字按照递增顺序进行排序； 6. 关键字数量满足ceil(M&#x2F;2)-1 &lt;&#x3D; n &lt;&#x3D; M-1。  例子：关键字为26英">
+<meta property="og:description" content="一、B树的性质一颗M阶B树T，满足以下条件 1. 每个结点至多拥有M课子树； 2. 根结点至少拥有两颗子树； 3. 除了根结点以外，其余每个分支结点至少拥有M&#x2F;2课子树； 4. 所有的叶结点都在同一层上； 5. 有k课子树的分支结点则存在k-1个关键字，关键字按照递增顺序进行排序； 6. 关键字数量满足ceil(M&#x2F;2)-1 &lt;&#x3D; n &lt;&#x3D; M-1。  例子：关键字为26英文字母，阶数">
 <meta property="og:locale">
 <meta property="og:image" content="http://example.com/B-tree_1.jpg">
 <meta property="og:image" content="http://example.com/B-tree_2.png">
@@ -30,14 +30,14 @@
 <meta property="og:image" content="http://example.com/B-tree_5.png">
 <meta property="og:image" content="http://example.com/B-tree_6.png">
 <meta property="article:published_time" content="2022-08-03T15:08:03.482Z">
-<meta property="article:modified_time" content="2022-07-04T07:41:10.631Z">
+<meta property="article:modified_time" content="2022-08-03T15:12:50.907Z">
 <meta property="article:author" content="歪歪">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/B-tree_1.jpg">
   
   
   
-  <title>歪歪的小屋</title>
+  <title>B-tree - 歪歪的小屋</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -200,7 +200,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text=""></span>
+            <span id="subtitle" data-typed-text="B-tree"></span>
           
         </div>
 
@@ -272,11 +272,11 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none"></h1>
+            <h1 style="display: none">B-tree</h1>
             
             <div class="markdown-body">
               
-              <h1 id="B-tree"><a href="#B-tree" class="headerlink" title="B-tree"></a>B-tree</h1><h2 id="一、B树的性质"><a href="#一、B树的性质" class="headerlink" title="一、B树的性质"></a>一、B树的性质</h2><pre><code class="hljs">一颗M阶B树T，满足以下条件
+              <h2 id="一、B树的性质"><a href="#一、B树的性质" class="headerlink" title="一、B树的性质"></a>一、B树的性质</h2><pre><code class="hljs">一颗M阶B树T，满足以下条件
 1. 每个结点至多拥有M课子树；
 2. 根结点至少拥有两颗子树；
 3. 除了根结点以外，其余每个分支结点至少拥有M/2课子树；
@@ -698,7 +698,7 @@ int main() &#123;
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div></div>
+      <div>B-tree</div>
       <div>http://example.com/2022/08/03/B-tree/</div>
     </div>
     <div class="license-meta">
